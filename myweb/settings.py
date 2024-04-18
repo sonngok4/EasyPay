@@ -74,16 +74,15 @@ WSGI_APPLICATION = 'myweb.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'GzCkMixulXwWnIPYlkex',
-        'HOST': 'containers-us-west-92.railway.app',
-        'PORT': '5526',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "easypay_db",
+        "USER": "easypay_db_user",
+        "PASSWORD": "QQTcm5HlmLwjoqBLXUeb30o2tbqT0WaO",
+        "HOST": "dpg-cog6f24f7o1s73fofjkg-a",
+        "PORT": "5432",
     }
 }
-
 
 
 # Password validation
