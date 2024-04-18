@@ -5,6 +5,8 @@ python3.9 -m venv .venv
 source .venv/bin/activate
 
 # install packages
+pipenv shell
+pipenv install django
 pip install wheel
 pip install --upgrade pip
 pip install -r requirements.txt
