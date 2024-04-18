@@ -79,7 +79,7 @@ DATABASES = {
         "NAME": "easypay_db",
         "USER": "easypay_db_user",
         "PASSWORD": "QQTcm5HlmLwjoqBLXUeb30o2tbqT0WaO",
-        "HOST": "dpg-cog6f24f7o1s73fofjkg-a",
+        "HOST": "dpg-cog6f24f7o1s73fofjkg-a.oregon-postgres.render.com",
         "PORT": "5432",
     }
 }
