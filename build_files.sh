@@ -2,7 +2,7 @@
 
 # Build static files
 python3.9 -m venv venv
-source venv/bin/activate
+source .env\Scripts\activate
 pip install --upgrade pip && \
     pip install wheel && \
     pip install -r requirements.txt
